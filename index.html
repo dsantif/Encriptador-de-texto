@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Encriptador</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <img src="imagenes/a.png" class="logo">
+  <main>
+    <div class="campo-texto">
+      <textarea rows="13" cols="50" id="texto-encriptado" placeholder="Ingresa tu texto aquí"></textarea>
+    </div>
+    <div class="botones">
+      <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+      <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+    </div>
+    <div class="campo-mensaje">
+      <img src="imagenes/challenge1.png" class="persona" id="persona">
+      <textarea rows="22" cols="23" id="texto-desencriptado"></textarea> 
+      <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+    </div>
+    <div class="footer">
+      Diana Santillana Fernandez <br> Challenge ONE 2024   
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
